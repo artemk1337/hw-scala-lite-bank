@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="account,account_6156,cashback,cashback_7557,common,fee,fee_4524,operation,operation_2207,template,template_6460" />
+  </component>
+</project>

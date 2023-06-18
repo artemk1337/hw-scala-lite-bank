@@ -1,0 +1,34 @@
+### Create account 1
+POST localhost:8004/create/1
+
+### Create account 2
+POST localhost:8004/create/2
+
+### Update money account 1
+POST localhost:8004/update/1/1000
+
+### Update money account 2
+POST localhost:8004/update/2/1000
+
+### Transfer money
+POST localhost:8004/transfer
+Content-Type: application/json
+
+{
+  "sourceId": 1,
+  "destinationId": 2,
+  "value": 101,
+  "categoryId": 1
+}
+
+### Account list
+GET localhost:8001/accounts
+Content-Type: application/json
+
+### Money account 1
+GET localhost:8001/account/1/money
+Content-Type: application/json
+
+### Money account 3 (not found)
+GET localhost:8001/account/3/money
+Content-Type: application/json

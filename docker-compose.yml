@@ -1,41 +1,64 @@
-version: '3.1'
+version: '3.9'
 
 services:
-  db:
-    image: postgres:9.6
-    environment:
-      POSTGRES_PASSWORD: 1111
-    ports:
-      - 5434:5432
-    networks:
-      - misis-local
 
-  rabbitmq:
-    image: rabbitmq:3-management
+  lite-bank_account:
+    container_name: lite-bank_account
+    image: lite-bank_account
     environment:
-      RABBITMQ_DEFAULT_USER: user
-      RABBITMQ_DEFAULT_PASS: password
+      APP_PORT: 8081
+      START_ID: 100
     ports:
-      - 15672:15672
-      - 5672:5672
-    networks:
-      - misis-local
+      - "8001:8081"
+    build:
+      context: ./
+      dockerfile: account/Dockerfile
+    cpu_count: 8
 
-  elasticsearch:
-    image: elasticsearch:7.9.3
+  lite-bank_cashbacks:
+    container_name: lite-bank_cashbacks
+    image: lite-bank_cashbacks
     environment:
-      discovery.type: single-node
+      APP_PORT: 8081
+      CATEGORY: 2
+      PERCENTAGE: 10
+      KAFKA_PORT: 9092
     ports:
-      - 9200:9200
-    networks:
-      - misis-local
+      - "8002:8081"
+    build:
+      context: ./
+      dockerfile: cashback/Dockerfile
+
+  lite-bank_fee:
+    container_name: lite-bank_fee
+    image: lite-bank_fee
+    ports:
+      - "8003:8081"
+    build:
+      context: ./
+      dockerfile: commission/Dockerfile
+    deploy:
+      resources:
+        limits:
+          cpus: '1.00'
+
+  lite-bank_operations:
+    container_name: lite-bank_operations
+    image: lite-bank_operations
+    ports:
+      - "8004:8081"
+    build:
+      context: ./
+      dockerfile: operations/Dockerfile
+    deploy:
+      resources:
+        limits:
+          cpus: '1.00'
 
   zookeeper:
     image: wurstmeister/zookeeper
     ports:
       - "2181:2181"
-    networks:
-      - misis-local
 
   kafka:
     image: wurstmeister/kafka
@@ -50,23 +73,3 @@ services:
       KAFKA_ADVERTISED_HOSTNAME: INSIDE
       KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INSIDE:PLAINTEXT,OUTSIDE:PLAINTEXT
       KAFKA_INTER_BROKER_LISTENER_NAME: INSIDE
-    networks:
-      - misis-local
-
-  fun-cart:
-    image: misis-fun-cart
-    container_name: misis-fun-cart
-    build:
-      dockerfile: docker/Dockerfile
-      context: ./
-    environment:
-      PGHOST: db
-      PGPORT: 5432
-    ports:
-      - 8080:8080
-    networks:
-      - misis-local
-
-
-networks:
-  misis-local:

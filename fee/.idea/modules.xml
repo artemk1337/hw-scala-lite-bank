@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/account.iml" filepath="$PROJECT_DIR$/.idea/modules/account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/account-build.iml" filepath="$PROJECT_DIR$/.idea/modules/account-build.iml" group="sbt-build-modules" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common.iml" filepath="$PROJECT_DIR$/.idea/modules/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-build.iml" filepath="$PROJECT_DIR$/.idea/modules/common-build.iml" group="sbt-build-modules" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fee.iml" filepath="$PROJECT_DIR$/.idea/modules/fee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fee-build.iml" filepath="$PROJECT_DIR$/.idea/modules/fee-build.iml" group="sbt-build-modules" />
+    </modules>
+  </component>
+</project>

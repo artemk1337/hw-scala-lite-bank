@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="customVMPath" />
+    <option name="linkedExternalProjectsSettings">
+      <SbtProjectSettings>
+        <option name="converterVersion" value="1" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/account" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/account" />
+            <option value="$PROJECT_DIR$/account/project" />
+            <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/common/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.7.2" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="converterVersion" value="1" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/cashback" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/account" />
+            <option value="$PROJECT_DIR$/account/project" />
+            <option value="$PROJECT_DIR$/cashback" />
+            <option value="$PROJECT_DIR$/cashback/project" />
+            <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/common/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.7.2" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="converterVersion" value="1" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/fee" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/account" />
+            <option value="$PROJECT_DIR$/account/project" />
+            <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/common/project" />
+            <option value="$PROJECT_DIR$/fee" />
+            <option value="$PROJECT_DIR$/fee/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.7.2" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="converterVersion" value="1" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/operation" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/account" />
+            <option value="$PROJECT_DIR$/account/project" />
+            <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/common/project" />
+            <option value="$PROJECT_DIR$/operation" />
+            <option value="$PROJECT_DIR$/operation/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.7.2" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="converterVersion" value="1" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/template" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/common/project" />
+            <option value="$PROJECT_DIR$/template" />
+            <option value="$PROJECT_DIR$/template/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.7.2" />
+      </SbtProjectSettings>
+    </option>
+  </component>
+</project>

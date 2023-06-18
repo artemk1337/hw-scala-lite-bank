@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/account.iml" filepath="$PROJECT_DIR$/.idea/modules/account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/account-build.iml" filepath="$PROJECT_DIR$/.idea/modules/account-build.iml" group="sbt-build-modules" />
+      <module fileurl="file://$PROJECT_DIR$/../cashback/.idea/modules/cashback_7240.iml" filepath="$PROJECT_DIR$/../cashback/.idea/modules/cashback_7240.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cashback/.idea/modules/cashback_7240-build.iml" filepath="$PROJECT_DIR$/../cashback/.idea/modules/cashback_7240-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common.iml" filepath="$PROJECT_DIR$/.idea/modules/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-build.iml" filepath="$PROJECT_DIR$/.idea/modules/common-build.iml" group="sbt-build-modules" />
+      <module fileurl="file://$PROJECT_DIR$/../fee/.idea/modules/fee.iml" filepath="$PROJECT_DIR$/../fee/.idea/modules/fee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../fee/.idea/modules/fee-build.iml" filepath="$PROJECT_DIR$/../fee/.idea/modules/fee-build.iml" group="sbt-build-modules" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/operation.iml" filepath="$PROJECT_DIR$/.idea/modules/operation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/operation-build.iml" filepath="$PROJECT_DIR$/.idea/modules/operation-build.iml" group="sbt-build-modules" />
+      <module fileurl="file://$PROJECT_DIR$/../template/.idea/modules/template_5875.iml" filepath="$PROJECT_DIR$/../template/.idea/modules/template_5875.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../template/.idea/modules/template_5875-build.iml" filepath="$PROJECT_DIR$/../template/.idea/modules/template_5875-build.iml" />
+    </modules>
+  </component>
+</project>

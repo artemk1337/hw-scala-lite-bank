@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6ce1911b-c69e-482c-a4f0-706c7160041a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.scalafmt.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-bank/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-bank/project/build.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-bank/project/plugins.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-bank/src/main/resources/application.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-bank/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-bank/src/main/scala/misis/akka/AkkaBank.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-bank/src/main/scala/misis/akka/actor/AccountActor.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-bank/src/main/scala/misis/akka/actor/BankActor.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-bank/src/main/scala/misis/akka/model/Account.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-kafka-demo/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-kafka-demo/project/build.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-kafka-demo/project/plugins.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-kafka-demo/src/main/resources/application.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-kafka-demo/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-kafka-demo/src/main/scala/misis/AkkaKafkaDemo.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-streams-demo/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-streams-demo/project/build.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-streams-demo/project/plugins.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-streams-demo/src/main/resources/application.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-streams-demo/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-streams-demo/src/main/scala/misis/AkkaStreamsDemo.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../base-monad/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../base-monad/project/build.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../base-monad/src/main/scala/misis/monad/MonadApp.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fun-cart/api.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fun-cart/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fun-cart/project/Dependencies.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fun-cart/project/build.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fun-cart/project/plugins.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fun-cart/src/main/resources/application.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fun-cart/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fun-cart/src/main/scala/misis/cart/CartDbApp.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fun-cart/src/main/scala/misis/cart/CartMemoryApp.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fun-cart/src/main/scala/misis/cart/db/CartDb.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fun-cart/src/main/scala/misis/cart/db/InitDb.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fun-cart/src/main/scala/misis/cart/db/ItemDb.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fun-cart/src/main/scala/misis/cart/model/Cart.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fun-cart/src/main/scala/misis/cart/model/Item.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fun-cart/src/main/scala/misis/cart/repository/CartRepository.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fun-cart/src/main/scala/misis/cart/repository/CartRepositoryDb.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fun-cart/src/main/scala/misis/cart/repository/ItemRepository.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fun-cart/src/main/scala/misis/cart/repository/ItemRepositoryDb.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fun-cart/src/main/scala/misis/cart/repository/ItemRepositoryInMemory.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fun-cart/src/main/scala/misis/cart/repository/PaymentClient.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fun-cart/src/main/scala/misis/cart/route/CartRoute.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fun-cart/src/main/scala/misis/cart/route/HelloRoute.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fun-cart/src/main/scala/misis/cart/route/ItemRoute.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/account.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/account/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/account/project/build.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/account/project/plugins.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/account/src/main/resources/app-0.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/account/src/main/resources/application.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/account/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/account/src/main/scala/misis/AccountApp.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/account/src/main/scala/misis/kafka/AccountStreams.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/account/src/main/scala/misis/model/Account.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/account/src/main/scala/misis/repository/AccountRepository.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/account/src/main/scala/misis/route/AccountRoute.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/common/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/common/project/build.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/common/project/plugins.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/common/src/main/scala/misis/WithKafka.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/course.task.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/elastic.get.allrecipes.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/elastic.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/elastic.put.allrecipes.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/operation/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/operation/project/build.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/operation/project/plugins.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/operation/src/main/resources/application.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/operation/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/operation/src/main/scala/misis/OperationApp.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/operation/src/main/scala/misis/kafka/Streams.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/operation/src/main/scala/misis/model/Account.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/operation/src/main/scala/misis/model/TransferStart.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/operation/src/main/scala/misis/repository/Repository.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/operation/src/main/scala/misis/route/Route.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/random/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/random/project/build.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/random/project/plugins.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/random/src/main/resources/application.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/random/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/random/src/main/scala/misis/InitAccount.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/random/src/main/scala/misis/RandomApp.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/report/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/report/project/build.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/report/project/plugins.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/report/src/main/resources/application.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/report/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/report/src/main/scala/misis/ReportApp.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/report/src/main/scala/misis/kafka/ReportStreams.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/report/src/main/scala/misis/repository/ElasticRepository.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/report/src/main/scala/misis/route/Route.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/template/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/template/project/build.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/template/project/plugins.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/template/src/main/resources/application.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/template/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/template/src/main/scala/misis/TempApp.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/template/src/main/scala/misis/kafka/Streams.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/template/src/main/scala/misis/repository/Repository.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lite-bank/template/src/main/scala/misis/route/Route.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sessions/src/NatApp.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sessions/src/bool.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sessions/src/cw1.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sessions/src/cw2.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sessions/src/cw3.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sessions/src/cw4.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sessions/src/cw5.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sessions/src/cw6.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sessions/src/cw7.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sessions/src/cw8.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sessions/src/hw1.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sessions/src/hw2.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sessions/src/hw3.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sessions/src/hw4-1.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sessions/src/hw4-2.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sessions/src/hw6.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sessions/src/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template-project/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template-project/project/build.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template-project/project/plugins.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template-project/src/main/resources/application.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template-project/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template-project/src/main/scala/misis/TemplateApp.scala" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2R6NbzycVj6AAwAILFtjK36n7KZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/artem/OneDrive/Documents/GitHub/scala-2semestr/cashback",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="account_2555" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="account_2555" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ce1911b-c69e-482c-a4f0-706c7160041a" name="Changes" comment="" />
+      <created>1686566653106</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686566653106</updated>
+      <workItem from="1686566654161" duration="26000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
