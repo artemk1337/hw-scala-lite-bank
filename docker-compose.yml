@@ -32,6 +32,8 @@ services:
   lite-bank_fee:
     container_name: lite-bank_fee
     image: lite-bank_fee
+    environment:
+      APP_PORT: 8081
     ports:
       - "8003:8081"
     build:
@@ -45,6 +47,8 @@ services:
   lite-bank_operations:
     container_name: lite-bank_operations
     image: lite-bank_operations
+    environment:
+      APP_PORT: 8081
     ports:
       - "8004:8081"
     build:
